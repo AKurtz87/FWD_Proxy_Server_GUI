@@ -3,11 +3,18 @@ This is a forward proxy server written in JavaScript. The proxy server handles a
 
 # Features
 
-- Forward proxy server
-- Prints all requests on the CLI interface
-- Saves all requests as logs in text files
-- Runs an HTTP server that serves an HTML page with all requests divided by color
- -Supports connect, post, and denied requests
+- Forward proxy server;
+- Prints all requests on the CLI interface;
+
+<img width="468" alt="image" src="https://user-images.githubusercontent.com/91114967/217781811-802a278f-117d-424c-9801-895ea37d84a0.png">
+
+- Saves all requests as logs in text files;
+- Runs an HTTP server that serves an HTML page with all requests divided by color;
+
+<img width="586" alt="image" src="https://user-images.githubusercontent.com/91114967/217781991-15e54a0a-246c-493a-902a-f0b52885eb0f.png">
+
+
+ -Supports connect, post, and denied requests;
 
 # Installation
 
