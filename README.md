@@ -3,18 +3,27 @@ This is a forward proxy server written in JavaScript. The proxy server handles a
 
 # Features
 
-- Forward proxy server;
-- Prints all requests on the CLI interface;
+1) Forward proxy server;
+2) Prints all requests on the CLI interface;
 
 <img width="468" alt="image" src="https://user-images.githubusercontent.com/91114967/217781811-802a278f-117d-424c-9801-895ea37d84a0.png">
 
-- Saves all requests as logs in text files;
-- Runs an HTTP server that serves an HTML page with all requests divided by color;
+3) Saves all requests as logs in text files;
+4) Runs an HTTP server that serves an HTML page with all requests divided by color;
 
 <img width="586" alt="image" src="https://user-images.githubusercontent.com/91114967/217781991-15e54a0a-246c-493a-902a-f0b52885eb0f.png">
 
+The HTML page served by the proxy server contains a display of all requests, divided by color into connect, post, and denied requests. The requests are displayed as elements with specific classes, allowing you to show or hide specific categories as needed.
 
- -Supports connect, post, and denied requests;
+  To show or hide specific categories, the HTML page includes three buttons:
+
+  - Connect: Show or hide all connect requests
+  - Post: Show or hide all post requests
+  - Denied: Show or hide all denied requests
+
+  By clicking on each of these buttons, you can show or hide the corresponding requests on the page, allowing you to focus on the specific category you are         interested in.
+
+5) Supports connect, post, and denied requests;
 
 # Installation
 
