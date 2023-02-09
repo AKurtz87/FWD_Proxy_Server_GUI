@@ -1,0 +1,67 @@
+fls-na.amazon.com:  52.4.236.98
+securepubads.g.doubleclick.net:  142.250.187.194
+securepubads.g.doubleclick.net:  142.250.187.194
+googleads.g.doubleclick.net:  172.217.16.226
+edgetrksvc.ebay.com:  209.140.135.178
+backstory.ebay.com:  209.140.139.215
+pagead2.googlesyndication.com:  172.217.169.2
+www.deporvillage.net:  104.18.18.190
+cdn.deporvillage.com
+cdn.deporvillage.com
+cdn.deporvillage.com
+cdn.deporvillage.com
+cdn.deporvillage.com
+www.google.com:  172.217.16.228
+api.dlk.deporvillage.net:  104.18.18.190
+cdn.deporvillage.com
+csm.va.us.criteo.net:  74.119.119.149
+www.facebook.com:  179.60.195.36
+www.google-analytics.com:  172.217.169.46
+dnacdn.net:  74.119.119.139
+sslwidget.criteo.com:  74.119.119.150
+nova.collect.igodigital.com:  52.0.193.199
+api.deporvillage.net:  104.18.18.190
+ag.gbc.criteo.com:  185.235.85.22
+gem.gbc.criteo.com:  185.235.85.222
+www.google.iq:  142.250.180.3
+bam.nr-data.net:  162.247.241.14
+bam.nr-data.net:  162.247.241.14
+api.deporvillage.net:  104.18.18.190
+gum.criteo.com:  74.119.119.139
+widget.eu.criteo.com:  178.250.0.163
+bidder.criteo.com:  74.119.119.129
+adgen.socdm.com:  202.241.208.2
+tg.socdm.com:  124.146.215.47
+adx.dable.io:  3.39.181.252
+exchange.mediavine.com:  34.200.63.237
+c.bing.com:  204.79.197.200
+ssp-sync.criteo.com:  74.119.119.73
+adservice.google.iq:  142.250.180.2
+adservice.google.com:  142.250.180.2
+e9cfa09ce13aeff51263f480e3183ddc.safeframe.googlesyndication.com:  142.250.200.1
+e9cfa09ce13aeff51263f480e3183ddc.safeframe.googlesyndication.com:  142.250.200.1
+cs.adingo.jp:  52.192.190.1
+x.bidswitch.net:  35.211.178.172
+ib.adnxs.com:  103.43.90.53
+contextual.media.net:  23.50.124.22
+sync.outbrain.com:  64.202.112.95
+criteo-sync.teads.tv:  104.112.20.199
+rtb-csync.smartadserver.com:  185.86.139.113
+match.sharethrough.com:  54.167.168.227
+pixel.rubiconproject.com:  213.19.162.80
+eb2.3lift.com:  76.223.111.18
+idsync.rlcdn.com:  35.190.60.146
+simage2.pubmatic.com:  104.36.113.107
+cm.g.doubleclick.net:  142.250.187.194
+sync-t1.taboola.com
+ads.stickyadstv.com
+sync.aralego.com
+sync-criteo.ads.yieldmo.com
+e1.emxdgt.com
+ups.analytics.yahoo.com:  54.175.87.114
+r.casalemedia.com:  172.64.154.237
+tpc.googlesyndication.com:  142.250.200.33
+tags.bluekai.com
+beacon.krxd.net:  34.195.206.195
+dis.criteo.com:  74.119.119.150
+

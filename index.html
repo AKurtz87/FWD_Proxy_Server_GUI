@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+      <html>
+        <head>
+        <style>
+        body {
+          background-color: rgb(65, 64, 64);
+        }
+        .POST {
+          margin: 10px;
+          padding: 10px;
+          background-color: rgb(53, 53, 53);
+          border-radius: 10px;
+          box-shadow: 0px 0px 10px rgb(222, 238, 53);
+          font-size: 20px;
+          color: rgb(222, 238, 53);
+          display = "block";
+        }
+        .CONNECT {
+          margin: 10px;
+          padding: 10px;
+          background-color: rgb(53, 53, 53);
+          border-radius: 10px;
+          box-shadow: 0px 0px 10px rgb(5, 218, 26);
+          font-size: 20px;
+          color: rgb(5, 218, 26);
+          display = "block";
+        }
+        .DENIED {
+          margin: 10px;
+          padding: 10px;
+          background-color: rgb(53, 53, 53);
+          border-radius: 10px;
+          box-shadow: 0px 0px 10px rgb(250, 4, 41);
+          font-size: 20px;
+          color: rgb(250, 4, 41);
+          display = "block";
+        }
+        .buttonPOST {
+          margin: 10px;
+          padding: 10px;
+          background-color: rgb(53, 53, 53);
+          border-radius: 10px;
+          box-shadow: 0px 0px 10px rgb(222, 238, 53);
+          font-size: 20px;
+          color: rgb(222, 238, 53);
+          display = "block";
+        }
+        .buttonCONNECT {
+          margin: 10px;
+          padding: 10px;
+          background-color: rgb(53, 53, 53);
+          border-radius: 10px;
+          box-shadow: 0px 0px 10px rgb(5, 218, 26);
+          font-size: 20px;
+          color: rgb(5, 218, 26);
+          display = "block";
+        }
+        .buttonDENIED {
+          margin: 10px;
+          padding: 10px;
+          background-color: rgb(53, 53, 53);
+          border-radius: 10px;
+          box-shadow: 0px 0px 10px rgb(250, 4, 41);
+          font-size: 20px;
+          color: rgb(250, 4, 41);
+          display = "block";
+        }
+        .postSpace {
+          margin: 10px;
+          padding: 10px;
+          background-color: #444;
+          border-radius: 10px;
+          box-shadow: 0px 0px 10px #555;
+          font-size: 18px;
+        }
+        .postLink {
+          margin: 10px;
+          padding: 10px;
+          background-color: rgb(130, 130, 130);
+          border-radius: 10px;
+          box-shadow: 0px 0px 10px #555;
+          font-size: 18px;
+        }
+        .postTime {
+          margin: 10px;
+          padding: 10px;
+          background-color: rgb(108, 108, 108);
+          border-radius: 10px;
+          box-shadow: 0px 0px 10px #555;
+          font-size: 18px;
+        }
+        .post p {
+          color: #fff;
+          font-size: 18px;
+          line-height: 1.5;
+        }
+        .post h3 {
+          font-size: 22px;
+          color: #fff;
+          text-transform: uppercase;
+          margin-bottom: 15px;
+        }
+  
+        .post p span {
+          color: #ff7f50;
+          font-weight: bold;
+        }
+  
+        .titleCONNECT {
+          text-align: center;
+          font-size: 32px;
+          font-weight: bold;
+          margin: 20px 0;
+          color: rgb(5, 218, 26);
+        }
+  
+        .titlePOST {
+          text-align: center;
+          font-size: 32px;
+          font-weight: bold;
+          margin: 20px 0;
+          color: rgb(222, 238, 53);
+        }
+        .titleDENIED {
+          text-align: center;
+          font-size: 32px;
+          font-weight: bold;
+          margin: 20px 0;
+          color: rgb(250, 4, 41);
+        }
+      </style>
+        </head>
+        <script>
+        function connect() {
+          x = document.querySelectorAll(".CONNECT");
+  
+          for (let i = 0; i < x.length; i++) {
+            if (x[i].style.display === "none") {
+              x[i].style.display = "block";
+            } else {
+              x[i].style.display = "none";
+            }
+          }
+        }
+  
+        function post() {
+          x = document.querySelectorAll(".POST");
+  
+          for (let i = 0; i < x.length; i++) {
+            if (x[i].style.display === "none") {
+              x[i].style.display = "block";
+            } else {
+              x[i].style.display = "none";
+            }
+          }
+        }
+  
+        function denied() {
+          x = document.querySelectorAll(".DENIED");
+  
+          for (let i = 0; i < x.length; i++) {
+            if (x[i].style.display === "none") {
+              x[i].style.display = "block";
+            } else {
+              x[i].style.display = "none";
+            }
+          }
+        }
+      </script>
+        <body>
+        <button class="buttonCONNECT" onclick="connect()">CONNECT</button>
+        <button class="buttonPOST" onclick="post()">POST</button>
+        <button class="buttonDENIED" onclick="denied()">DENIED</button>
+          <div class="CONNECT">push.services.mozilla.com</div><div class="CONNECT">edgetrksvc.ebay.com</div><div class="CONNECT">backstory.ebay.com</div><div class="CONNECT">github.com</div><div class="CONNECT">www.deporvillage.net</div><div class="CONNECT">camo.githubusercontent.com</div><div class="CONNECT">csm.nl.eu.criteo.net</div><div class="DENIED">securepubads.g.doubleclick.net</div><div class="DENIED">securepubads.g.doubleclick.net</div><div class="DENIED">www.googletagmanager.com</div><div class="CONNECT">cdn.cookielaw.org</div><div class="CONNECT">cdn.deporvillage.com</div><div class="DENIED">www.googletagmanager.com</div><div class="CONNECT">collector.github.com</div><div class="CONNECT">cdn.deporvillage.com</div><div class="CONNECT">api.deporvillage.net</div><div class="CONNECT">cdn.deporvillage.com</div><div class="CONNECT">cdn.deporvillage.com</div><div class="CONNECT">cdn.deporvillage.com</div><div class="CONNECT">cdn.deporvillage.com</div><div class="CONNECT">api.dlk.deporvillage.net</div><div class="CONNECT">cdn.deporvillage.com</div><div class="CONNECT">cdn.deporvillage.com</div><div class="CONNECT">icbu-fe-log.log-global.aliyuncs.com</div><div class="CONNECT">gj.mmstat.com</div><div class="CONNECT">bam.nr-data.net</div><div class="CONNECT">bam.nr-data.net</div><div class="DENIED">www.googletagmanager.com</div><div class="CONNECT">retcode-us-west-1.arms.aliyuncs.com</div><div class="CONNECT">www.alibaba.com</div><div class="CONNECT">icbu-fe-log.log-global.aliyuncs.com</div><div class="CONNECT">www.facebook.com</div><div class="CONNECT">gum.criteo.com</div><div class="CONNECT">dnacdn.net</div><div class="CONNECT">ag.gbc.criteo.com</div><div class="CONNECT">gem.gbc.criteo.com</div><div class="POST">ocsp2.globalsign.com</div><div class="CONNECT">api.dlk.deporvillage.net</div><div class="POST">ocsp.digicert.com</div><div class="CONNECT">pulsar.ebay.com</div><div class="CONNECT">www.ebay.com</div><div class="CONNECT">gum.criteo.com</div><div class="DENIED">securepubads.g.doubleclick.net</div><div class="CONNECT">api.github.com</div><div class="DENIED">securepubads.g.doubleclick.net</div><div class="CONNECT">ws.mmstat.com</div><div class="CONNECT">assets.alicdn.com</div><div class="CONNECT">insights.alibaba.com</div><div class="CONNECT">ug.alibaba.com</div><div class="CONNECT">marketing.alibaba.com</div><div class="CONNECT">air.alibaba.com</div><div class="CONNECT">open-s.alibaba.com</div><div class="CONNECT">messagebeach.alibaba.com</div><div class="CONNECT">onetalk.alibaba.com</div><div class="POST">ocsp2.globalsign.com</div><div class="POST">ocsp2.globalsign.com</div><div class="POST">ocsp2.globalsign.com</div><div class="CONNECT">login.alibaba.com</div><div class="CONNECT">i.ebayimg.com</div><div class="CONNECT">baize.alibaba.com</div><div class="CONNECT">rfq.alibaba.com</div><div class="CONNECT">sourcing.alibaba.com</div><div class="CONNECT">acs.h.alibaba.com</div><div class="CONNECT">sale.alibaba.com</div><div class="CONNECT">rover.ebay.com</div><div class="CONNECT">i.alicdn.com</div><div class="CONNECT">retcode-us-west-1.arms.aliyuncs.com</div><div class="CONNECT">gcd.mmstat.com</div><div class="CONNECT">srv.main.ebayrtm.com</div><div class="DENIED">www.googletagservices.com</div><div class="CONNECT">offer.alibaba.com</div><div class="CONNECT">devicebind.ebay.com</div><div class="DENIED">securepubads.g.doubleclick.net</div><div class="CONNECT">s.alicdn.com</div><div class="CONNECT">shop-cart.app</div><div class="CONNECT">scripts.prdredir.com</div><div class="CONNECT">webtrafficsource.com</div><div class="CONNECT">cdn.dsncdn.com</div><div class="CONNECT">stags.bluekai.com</div><div class="CONNECT">tags.creativecdn.com</div><div class="CONNECT">sp.analytics.yahoo.com</div><div class="CONNECT">mc.yandex.com</div><div class="CONNECT">rtg.prdredir.com</div><div class="CONNECT">webtrafficsource.com</div><div class="CONNECT">s.alicdn.com</div><div class="CONNECT">asia.creativecdn.com</div><div class="CONNECT">shop-cart.app</div><div class="CONNECT">yandex.com</div><div class="CONNECT">an.yandex.ru</div><div class="DENIED">www.googletagmanager.com</div><div class="CONNECT">mixer.mobon.net</div><div class="DENIED">cm.g.doubleclick.net</div><div class="CONNECT">ds-aksb-a.akamaihd.net</div><div class="CONNECT">sslwidget.criteo.com</div><div class="CONNECT">csm.nl.eu.criteo.net</div><div class="CONNECT">widget.eu.criteo.com</div><div class="CONNECT">contile.services.mozilla.com</div><div class="POST">r3.o.lencr.org</div><div class="CONNECT">pulsar.ebay.com</div><div class="DENIED">safebrowsing.googleapis.com</div>
