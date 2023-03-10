@@ -1,4 +1,4 @@
-# javascript_FWD_Proxy_Server_html_interface
+# FWD_Proxy_Server_GUI
 This is a forward proxy server written in JavaScript. The proxy server handles all requests from the client, prints all requests on the CLI interface, and saves all requests as logs in text files. At the same time, the proxy server runs an HTTP server that serves an HTML page with all requests divided by color into connect, post, and denied requests.
 Please note that the proxy server in use may block all requests based on a blacklist.txt file that contains a list of domains to be blocked.The blacklist.txt file can be updated to ensure that all the "black" domains are included.
 Users should be aware that any attempts to access blacklisted domains could be blocked.
